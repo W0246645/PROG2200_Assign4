@@ -12,7 +12,7 @@ namespace BouncyBallGame
         //Properties
         private readonly int width = 100;
         private readonly int height = 20;
-        private readonly int xVelocity = 10;
+        private readonly int xVelocity = 20;
         public Rectangle DisplayRect;
         private Rectangle Canvas;
 

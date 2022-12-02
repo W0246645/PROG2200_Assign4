@@ -42,7 +42,7 @@ namespace BouncyBallGame
             DisplayArea.Width = size;
             // Display the ball at the centre of the screen
             DisplayArea.X = (canvas.Width / 2) - (int)(DisplayArea.Width / 2);
-            DisplayArea.Y = (canvas.Height / 4) - (int)(DisplayArea.Height / 2);
+            DisplayArea.Y = (canvas.Height / 2) - (int)(DisplayArea.Height / 2);
             Random random = new Random();
             //xVelocity = random.Next(-15, 15);
             //yVelocity = random.Next(-15, 15);

@@ -15,7 +15,7 @@ namespace BouncyBallGame
     public partial class BouncyBallGame : Form
     {
         // Properties
-        int initBrickX = 200, initBrickY = 200;
+        int initBrickX = 200, initBrickY = 100;
         Paddle paddle;
 
         List<Brick> bricks = new List<Brick>();
